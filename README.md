@@ -29,3 +29,13 @@ Jar: `build/libs/infernos_dragon_eyes-1.21.1-neoforge-1.0.0.jar`
 ## License
 
 LGPL-3.0 (upstream lineage). Credits: MKuckert (Eye of Dragons), LucianoWayand, Groupix05 (CE fork), Infernos/Imbavirus (1.21.1 NeoForge rebrand/port).
+
+## Catalog
+
+| Platform | ID / slug |
+|----------|-----------|
+| CurseForge | project **1644807** (`infernos-dragon-eyes`) |
+| Modrinth | slug **infernos-dragon-eyes** |
+
+First CF file id (1.0.0): **8604820**
+

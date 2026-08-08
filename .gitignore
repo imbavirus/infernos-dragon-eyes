@@ -14,3 +14,6 @@ libs/*.jar
 !libs/.gitkeep
 .DS_Store
 *.log
+.env
+.env.*
+!.env.example
