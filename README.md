@@ -34,8 +34,9 @@ LGPL-3.0 (upstream lineage). Credits: MKuckert (Eye of Dragons), LucianoWayand, 
 
 | Platform | ID / slug |
 |----------|-----------|
-| CurseForge | project **1644807** (`infernos-dragon-eyes`) |
-| Modrinth | slug **infernos-dragon-eyes** |
+| CurseForge | project **1644807** · file **8604820** (1.0.0) |
+| Modrinth | project **P54Vrx5a** · slug `infernos-dragon-eyes` · version **aMOzp9Up** (1.0.0) |
 
-First CF file id (1.0.0): **8604820**
+- CF: https://www.curseforge.com/minecraft/mc-mods/infernos-dragon-eyes
+- MR: https://modrinth.com/mod/infernos-dragon-eyes (submit draft if still in draft)
 
