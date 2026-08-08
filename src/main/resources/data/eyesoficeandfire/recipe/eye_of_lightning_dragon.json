@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:ender_pearl"
+    },
+    "B": {
+      "item": "iceandfire:lightning_dragon_blood"
+    }
+  },
+  "result": {
+    "id": "eyesoficeandfire:eye_of_lightning_dragon",
+    "count": 1
+  }
+}
