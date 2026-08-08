@@ -1,50 +1,31 @@
-# Eyes of Ice and Fire — Community Edition (1.21.1 NeoForge)
+# Infernos Dragon Eyes
 
-Unofficial **NeoForge 1.21.1** port of [Eyes of Ice and Fire Community Edition](https://www.curseforge.com/minecraft/mc-mods/eyes-of-ice-and-fire-community-edition)
-(Groupix05 fork of LucianoWayand's Eyes of Ice and Fire / Eye of Dragons lineage).
+**Mod id:** `infernos_dragon_eyes`  
+**MC / loader:** 1.21.1 NeoForge  
+**Depends on:** [Ice and Fire Community Edition](https://modrinth.com/mod/iceandfire-ce) 2.x  
 
-License: **LGPL-3.0** (upstream).
+Lore-friendly eyes of ender that point toward nearby **wild, living** dragons. Craft with an ender pearl + dragon blood (fire / ice / lightning).
 
-## What it does
+This is an **Infernos** 1.21.1 port of the Eyes of Ice and Fire CE idea — **new mod id and branding** so it is not confused with (and does not replace) upstream Eyes of Ice and Fire / CE.
 
-Craft eyes of ender from Ice and Fire CE dragon blood. Right-click to send an eye toward the nearest
-**wild, living** dragon of that type within ~36 chunks.
+## Crafting
 
-| Eye | Blood |
-|-----|-------|
-| Eye of Fire Dragon | `iceandfire:fire_dragon_blood` + ender pearl |
-| Eye of Ice Dragon | `iceandfire:ice_dragon_blood` + ender pearl |
-| Eye of Lightning Dragon | `iceandfire:lightning_dragon_blood` + ender pearl |
-
-## Requirements
-
-- Minecraft **1.21.1**
-- NeoForge **21.1.x**
-- [Ice and Fire Community Edition](https://modrinth.com/mod/iceandfire-ce) **2.0+** (tested on **2.1-beta.1**)
-  - pulls **uranus**, **jupiter**, **geckolib**
+| Result | Ingredients |
+|--------|-------------|
+| Eye of Fire Dragon | Ender Pearl + `iceandfire:fire_dragon_blood` |
+| Eye of Ice Dragon | Ender Pearl + `iceandfire:ice_dragon_blood` |
+| Eye of Lightning Dragon | Ender Pearl + `iceandfire:lightning_dragon_blood` |
 
 ## Build
 
 ```bash
-# Place compile jars in libs/ (see libs/README) or use an existing Infernos launcher pack copy
+# libs/: iceandfire + uranus + jupiter + geckolib (see libs/README.md)
 export JAVA_HOME="/c/Program Files/Eclipse Adoptium/jdk-21.0.9.10-hotspot"
 ./gradlew.bat build
 ```
 
-Output: `build/libs/eyesoficeandfire-1.21.1-neoforge-1.3.0-1.21.1.jar`
+Jar: `build/libs/infernos_dragon_eyes-1.21.1-neoforge-1.0.0.jar`
 
-## Port notes (1.20.1 Forge → 1.21.1 NeoForge)
+## License
 
-- Forge → NeoForge moddev plugin / `neoforge.mods.toml`
-- `EntityDragonBase` → `DragonBaseEntity`
-- `DragonType.FIRE|ICE|LIGHTNING` → `IafDragonTypes.FIRE|ICE|LIGHTNING`
-- Deferred registers use NeoForge `DeferredRegister.Items` / `DeferredItem`
-- Recipes under `data/.../recipe/` with 1.21 `result.id`
-- `Player.isCreative()` → `getAbilities().instabuild`
-
-## Credits
-
-- MKuckert — Eye of Dragons
-- LucianoWayand — Eyes of Ice and Fire
-- Groupix05 — Community Edition (IceAndFire CE) fork
-- Infernos / Imbavirus — 1.21.1 NeoForge port
+LGPL-3.0 (upstream lineage). Credits: MKuckert (Eye of Dragons), LucianoWayand, Groupix05 (CE fork), Infernos/Imbavirus (1.21.1 NeoForge rebrand/port).

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "infernos_dragon_eyes:item/eye_of_lightning_dragon"
+  }
+}

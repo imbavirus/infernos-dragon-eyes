@@ -1,4 +1,4 @@
-package io.github.lucianowayand.eyesoficeandfire;
+package za.co.infernos.dragoneyes;
 
 import com.iafenvoy.iceandfire.data.DragonType;
 import com.iafenvoy.iceandfire.entity.DragonBaseEntity;
@@ -26,12 +26,12 @@ import java.util.List;
 
 /**
  * Eye-of-ender style item that homes toward the nearest wild live dragon of a given type.
- * Ported from Eyes of Ice and Fire CE (1.20.1 Forge) to Ice and Fire CE 2.x / NeoForge 1.21.1.
+ * Behaviour ported from Eyes of Ice and Fire CE; rebranded as Infernos Dragon Eyes for 1.21.1.
  */
-public class EnderEyes extends Item {
+public class DragonEyeItem extends Item {
     private final DragonType type;
 
-    public EnderEyes(Properties properties, DragonType type) {
+    public DragonEyeItem(Properties properties, DragonType type) {
         super(properties);
         this.type = type;
     }
@@ -43,7 +43,7 @@ public class EnderEyes extends Item {
 
         DragonBaseEntity dragonFound = getClosestDragon(levelIn, playerIn, type);
         if (dragonFound == null) {
-            playerIn.displayClientMessage(Component.translatable("chat.no_dragons_found"), true);
+            playerIn.displayClientMessage(Component.translatable("chat.infernos_dragon_eyes.no_dragons_found"), true);
             return InteractionResultHolder.pass(itemstack);
         }
 

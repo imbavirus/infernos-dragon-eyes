@@ -9,11 +9,11 @@
       "item": "minecraft:ender_pearl"
     },
     "B": {
-      "item": "iceandfire:lightning_dragon_blood"
+      "item": "iceandfire:fire_dragon_blood"
     }
   },
   "result": {
-    "id": "eyesoficeandfire:eye_of_lightning_dragon",
+    "id": "infernos_dragon_eyes:eye_of_fire_dragon",
     "count": 1
   }
 }

@@ -1,0 +1,7 @@
+{
+  "item.infernos_dragon_eyes.eye_of_fire_dragon": "Глаз Огненного Дракона",
+  "item.infernos_dragon_eyes.eye_of_ice_dragon": "Глаз Ледяного Дракона",
+  "item.infernos_dragon_eyes.eye_of_lightning_dragon": "Глаз Молниеносного Дракона",
+  "itemGroup.infernos_dragon_eyes": "Infernos Dragon Eyes",
+  "chat.infernos_dragon_eyes.no_dragons_found": "Глаз не улетает. Драконов поблизости нет."
+}
