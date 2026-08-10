@@ -59,15 +59,3 @@ If you are the upstream author and want changes to credits or distribution, open
 ## The Infernos Dragon Eyes Team
 
 Infernos / Imbavirus (port & maintenance)
-
-
-## Catalog
-
-| Platform | ID / slug |
-|----------|-----------|
-| CurseForge | project **1644807** · slug `infernos-dragon-eyes` · file **8604820** (1.0.0) — *pending CF approval until description credits accepted* |
-| Modrinth | project **P54Vrx5a** · slug `infernos-dragon-eyes` · version **aMOzp9Up** (1.0.0) |
-
-- CF (author console): https://legacy.curseforge.com/minecraft/mc-mods/infernos-dragon-eyes
-- MR: https://modrinth.com/mod/infernos-dragon-eyes
-- Paste-ready CF description: see `CURSEFORGE_DESCRIPTION.md`
